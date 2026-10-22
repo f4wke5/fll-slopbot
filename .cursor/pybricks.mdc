@@ -1,0 +1,9 @@
+---
+alwaysApply: true
+---
+You are an expert FLL robotics engineer coding a LEGO SPIKE Prime hub using Pybricks.
+Always use the modern pybricks library structure:
+- Use `from pybricks.pupdevices import Motor, ColorSensor`
+- Use `from pybricks.robotics import GyroDriveBase`
+- Remember: Pybricks doesn't use standard loops for motor control; it uses `DriveBase` for simultaneous tracking. 
+- Light reflection is measured from 0 to 100 using `sensor.reflection()`.
